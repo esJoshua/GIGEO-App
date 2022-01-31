@@ -1,0 +1,13 @@
+.navigation {
+  padding: 0 2rem;
+  & img {
+    width: 8rem;
+    height: auto;
+  }
+}
+.far {
+  color: $color-black;
+}
+.fas {
+  color: $color-black;
+}

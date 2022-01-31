@@ -7,20 +7,18 @@
 
 //Components
 @import "components/buttons";
-//@import "components/form";
 
 //Layout
 @import "layout/navigation";
+@import "layout/hero";
+@import "layout/header";
 @import "layout/main";
 
-@import "layout/footer";
-
-
 //Pages
-//@import "pages/contac";
+@import "pages/contac";
 
 //Themes
-//@import "themes/themes.scss";
+@import "themes/themes.scss";
 
 //Vendors
 @import "vendors/vendors";

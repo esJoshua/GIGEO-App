@@ -9,4 +9,53 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.header__profile-buttons--msj, .header__profile-buttons--follow {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  width: 5rem;
+  padding: 8px;
+}
+.header__profile-buttons--msj {
+  background-color: rgba(27, 163, 218, 0.74);
+}
+.header__profile-buttons--follow {
+  background-color: rgba(255, 0, 0, 0.637);
+}
+
+.navigation {
+  padding: 0 2rem;
+}
+.navigation img {
+  width: 8rem;
+  height: auto;
+}
+
+.far {
+  color: #000000;
+}
+
+.fas {
+  color: #000000;
+}
+
+.hero__img {
+  width: 100%;
+  max-height: 20vh;
+  object-fit: cover;
+}
+
+.header__profile {
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.header__profile-yuki {
+  display: flex;
+  align-items: center;
+}
+.header__profile-yuki img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=styles.css.map */

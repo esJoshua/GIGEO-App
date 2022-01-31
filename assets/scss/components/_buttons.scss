@@ -1,0 +1,16 @@
+.header__profile-buttons {
+  &--msj,
+  &--follow {
+    font-size: $fs-small;
+    color: $color-white;
+    border: none;
+    width: 5rem;
+    padding: 8px;
+  }
+  &--msj {
+    background-color: $color-blue;
+  }
+  &--follow {
+    background-color: $color-red;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  &__profile {
+    align-items: center;
+    padding: 1rem 3rem;
+    &-yuki {
+      display: flex;
+      align-items: center;
+      & img {
+        max-width: 100px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
