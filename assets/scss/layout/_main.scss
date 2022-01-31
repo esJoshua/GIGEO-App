@@ -1,0 +1,19 @@
+.main {
+  &__row {
+    margin: 0;
+    overflow: hidden;
+  }
+  &__card {
+    padding: 0;
+    margin-bottom: 5%;
+  }
+  &__body-img {
+    width: 100%;
+    padding: 2%;
+  }
+  &__body p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+  }
+}
